@@ -1,0 +1,39 @@
+==========================================
+Directory Synchronization Checker
+==========================================
+Comparing: dirA <-> dirB
+
+==========================================
+1. Files Present ONLY in dirA
+==========================================
+  - file_a.txt
+  - special_a.txt
+  - unique_a.txt
+
+==========================================
+2. Files Present ONLY in dirB
+==========================================
+  - file_b.txt
+  - special_b.txt
+  - unique_b.txt
+
+==========================================
+3. Common Files - Content Comparison
+==========================================
+  ✓ common1.txt - IDENTICAL
+  ✗ common2.txt - DIFFERENT
+    (Use 'diff dirA/common2.txt dirB/common2.txt' to see differences)
+  ✓ data.txt - IDENTICAL
+
+==========================================
+Summary Report
+==========================================
+Files only in dirA: 3
+Files only in dirB: 3
+Common files: 3
+  - Identical: 2
+  - Different: 1
+
+==========================================
+Comparison Complete!
+==========================================

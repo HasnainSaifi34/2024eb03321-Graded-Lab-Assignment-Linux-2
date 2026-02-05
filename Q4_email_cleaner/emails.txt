@@ -1,0 +1,16 @@
+john@gmail.com
+alice@yahoo.com
+john@gmail.com
+bob123@outlook.com
+invalid@domain
+test@123.com
+sarah@hotmail.com
+alice@yahoo.com
+admin@.com
+mike99@company.com
+user@site.net
+test123@company.com
+badformat@123domain.com
+good@test.com
+@missing.com
+another@good.com

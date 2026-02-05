@@ -1,0 +1,40 @@
+=== Zombie Process Prevention Demo ===
+Parent Process PID: 67048
+
+Creating 5 child processes...
+
+Parent: Created child 1 with PID = 67049
+Parent: Created child 2 with PID = 67050
+Parent: Created child 3 with PID = 67051
+Parent: Created child 4 with PID = 67052
+Parent: Created child 5 with PID = 67053
+Child 1: PID = 67049, Parent PID = 67048
+Child 1 (PID 67049): Terminating...
+Child 2: PID = 67050, Parent PID = 67048
+Child 2 (PID 67050): Terminating...
+Child 3: PID = 67051, Parent PID = 67048
+Child 3 (PID 67051): Terminating...
+Child 4: PID = 67052, Parent PID = 67048
+Child 4 (PID 67052): Terminating...
+Child 5: PID = 67053, Parent PID = 67048
+Child 5 (PID 67053): Terminating...
+
+=== Parent waiting for children to terminate ===
+
+Parent: Cleaned up child with PID = 67049
+        Child exited normally with status: 1
+
+Parent: Cleaned up child with PID = 67050
+        Child exited normally with status: 2
+
+Parent: Cleaned up child with PID = 67051
+        Child exited normally with status: 3
+
+Parent: Cleaned up child with PID = 67052
+        Child exited normally with status: 4
+
+Parent: Cleaned up child with PID = 67053
+        Child exited normally with status: 5
+
+=== All children cleaned up successfully ===
+Parent Process (PID 67048): Exiting...

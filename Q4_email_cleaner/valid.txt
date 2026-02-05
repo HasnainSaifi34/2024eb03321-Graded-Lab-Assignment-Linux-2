@@ -1,0 +1,8 @@
+alice@yahoo.com
+another@good.com
+bob123@outlook.com
+good@test.com
+john@gmail.com
+mike99@company.com
+sarah@hotmail.com
+test123@company.com

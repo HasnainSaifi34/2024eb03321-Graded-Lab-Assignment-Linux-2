@@ -1,0 +1,6 @@
+invalid@domain
+test@123.com
+admin@.com
+user@site.net
+badformat@123domain.com
+@missing.com

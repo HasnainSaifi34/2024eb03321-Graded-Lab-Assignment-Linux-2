@@ -1,0 +1,8 @@
+The quick brown fox jumps over the lazy dog.
+This is a simple test file to demonstrate the text analysis script.
+The word "the" appears multiple times in this text.
+Programming is fun and challenging. Programming requires practice.
+Short words: a, I, to, it, is.
+Longer words: demonstration, extraordinary, implementation, revolutionary.
+Analysis of text files helps understand content complexity.
+Machine learning and artificial intelligence are transforming technology.

@@ -1,0 +1,42 @@
+==========================================
+Text File Metrics Analysis
+==========================================
+Analyzing file: input.txt
+
+==========================================
+1. Longest Word
+==========================================
+implementation (Length: 14 characters)
+
+==========================================
+2. Shortest Word
+==========================================
+a (Length: 1 characters)
+
+==========================================
+3. Average Word Length
+==========================================
+Average: 5.74 characters
+(Total characters: 385 / Total words: 67)
+
+==========================================
+4. Total Number of Unique Words
+==========================================
+Unique words: 52
+
+==========================================
+Additional Statistics
+==========================================
+Total words (including duplicates): 67
+Duplicate words: 15
+
+Top 5 Most Frequent Words:
+  the (5 times)
+  text (3 times)
+  is (3 times)
+  words (2 times)
+  to (2 times)
+
+==========================================
+Analysis Complete!
+==========================================

@@ -1,0 +1,41 @@
+==========================================
+Email Cleaner Script - Starting...
+==========================================
+
+Step 1: Extracting valid email addresses...
+Valid emails found: 10
+
+Step 2: Removing duplicates from valid emails...
+Unique valid emails: 8
+
+Step 3: Extracting invalid email addresses...
+Invalid emails found: 6
+
+==========================================
+Processing Complete!
+==========================================
+
+Results:
+--------
+Valid emails (duplicates removed): 8
+Invalid emails: 6
+
+Output files created:
+  - valid.txt   (valid unique email addresses)
+  - invalid.txt (invalid email addresses)
+
+Sample valid emails (first 5):
+alice@yahoo.com
+another@good.com
+bob123@outlook.com
+good@test.com
+john@gmail.com
+
+Sample invalid emails (first 5):
+invalid@domain
+test@123.com
+admin@.com
+user@site.net
+badformat@123domain.com
+
+==========================================

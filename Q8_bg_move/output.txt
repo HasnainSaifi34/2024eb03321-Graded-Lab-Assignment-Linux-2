@@ -1,0 +1,36 @@
+Directory Before Executing
+testdir
+├── document.pdf
+├── file1.txt
+├── file2.txt
+└── file3.txt
+
+1 directory, 4 files
+Created backup directory: testdir/backup
+Starting file movement operations...
+Main script PID: 66973
+
+Background process started: PID = 66977 for file 'document.pdf'
+Background process started: PID = 66980 for file 'file1.txt'
+Background process started: PID = 66983 for file 'file2.txt'
+Moved: document.pdf (by process 66977)
+Background process started: PID = 66986 for file 'file3.txt'
+Moved: file1.txt (by process 66980)
+
+Waiting for all background processes to finish...
+Total background processes: 4
+
+Moved: file2.txt (by process 66983)
+Moved: file3.txt (by process 66986)
+
+All background processes completed!
+All files have been moved to: testdir/backup
+Directory After Executing
+testdir
+└── backup
+    ├── document.pdf
+    ├── file1.txt
+    ├── file2.txt
+    └── file3.txt
+
+2 directories, 4 files

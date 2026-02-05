@@ -1,0 +1,41 @@
+==========================================
+Student Results Validation
+==========================================
+Passing Marks: 33 in each subject
+
+==========================================
+Students Who Failed in Exactly ONE Subject
+==========================================
+Roll No    Name                 Marks1   Marks2   Marks3  
+-------    ----                 ------   ------   ------  
+102        Bob Smith            28       55       62      
+104        David Wilson         45       29       67      
+107        Grace Lee            31       45       52      
+108        Henry Taylor         42       38       30      
+111        Karen Martinez       25       48       55      
+113        Mia Rodriguez        45       32       78      
+115        Olivia Clark         52       28       65      
+
+==========================================
+Students Who Passed in ALL Subjects
+==========================================
+Roll No    Name                 Marks1   Marks2   Marks3  
+-------    ----                 ------   ------   ------  
+101        Alice Johnson        45       67       78      
+103        Charlie Brown        72       88       91      
+105        Emma Davis           56       45       89      
+106        Frank Miller         88       92       85      
+109        Ivy Anderson         95       88       92      
+110        Jack White           67       78       82      
+112        Leo Garcia           78       82       76      
+114        Noah Harris          88       91       94      
+
+==========================================
+Summary Statistics
+==========================================
+Total students who failed in exactly ONE subject: 7
+Total students who passed in ALL subjects: 8
+
+==========================================
+Validation Completed Successfully
+==========================================

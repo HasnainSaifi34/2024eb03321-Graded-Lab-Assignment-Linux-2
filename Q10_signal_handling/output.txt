@@ -1,0 +1,48 @@
+=== Signal Handling Demonstration ===
+Parent Process PID: 412
+
+Signal handlers installed:
+  - SIGTERM handler: Custom cleanup handler
+  - SIGINT handler: Custom exit preparation handler
+
+[CHILD 1] PID: 413, Parent PID: 412
+[CHILD 1] Will send SIGTERM to parent after 5 seconds
+[CHILD 2] PID: 414, Parent PID: 412
+[CHILD 2] Will send SIGINT to parent after 10 seconds
+[CHILD 1] Sending SIGTERM to parent (PID 412)...
+[CHILD 1] SIGTERM sent successfully. Exiting...
+
+[PARENT] Created Child 1 (PID 413) - Will send SIGTERM in 5s
+[PARENT] Created Child 2 (PID 414) - Will send SIGINT in 10s
+
+[PARENT] Running indefinitely... waiting for signals
+[PARENT] Press Ctrl+C or wait for child signals
+
+[PARENT] Working... (iteration 1)
+[PARENT] Working... (iteration 2)
+[PARENT] Working... (iteration 3)
+
+[PARENT] Received SIGTERM (signal 15)
+[PARENT] Handling SIGTERM: Performing cleanup operations...
+[PARENT] Cleanup complete. Marking SIGTERM as received.
+[PARENT] SIGTERM received, bu[CHILD 2] Sending SIGINT to parent (PID 412)...
+[CHILD 2] SIGINT sent successfully. Exiting...
+t still waiting for SIGINT...
+[PARENT] Working... (iteration 4)
+[PARENT] SIGTERM received, but still waiting for SIGINT...
+[PARENT] Working... (iteration 5)
+[PARENT] SIGTERM received, but still waiting for SIGINT...
+[PARENT] Working... (iteration 6)
+
+[PARENT] Received SIGINT (signal 2)
+[PARENT] Handling SIGINT: Saving state and preparing to exit...
+[PARENT] State saved. Marking SIGINT as received.
+
+[PARENT] Both signals (SIGTERM and SIGINT) received!
+[PARENT] Preparing for graceful exit...
+[PARENT] Cleaning up child processes...
+[PARENT] Child 1 (PID 413) cleaned up
+[PARENT] Child 2 (PID 414) cleaned up
+
+[PARENT] Graceful exit complete. Goodbye!
+=== Program terminated successfully ===
