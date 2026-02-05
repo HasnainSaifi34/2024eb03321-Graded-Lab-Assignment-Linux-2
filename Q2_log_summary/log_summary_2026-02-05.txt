@@ -1,0 +1,42 @@
+==========================================
+Log Analysis Report
+==========================================
+Report Generated: 2026-02-05 12:27:48
+Log File Analyzed: sample_log.txt
+
+==========================================
+Summary Statistics
+==========================================
+Total number of log entries: 20
+Number of INFO messages: 8
+Number of WARNING messages: 6
+Number of ERROR messages: 6
+
+==========================================
+Most Recent ERROR Message
+==========================================
+2025-01-12 10:31:27 ERROR File not found: config.xml
+
+==========================================
+All ERROR Messages
+==========================================
+2025-01-12 10:16:01 ERROR Disk not found
+2025-01-12 10:17:10 ERROR Network timeout
+2025-01-12 10:21:05 ERROR Failed to load configuration
+2025-01-12 10:25:47 ERROR Authentication failed
+2025-01-12 10:28:19 ERROR Database query timeout
+2025-01-12 10:31:27 ERROR File not found: config.xml
+
+==========================================
+All WARNING Messages
+==========================================
+2025-01-12 10:16:45 WARNING High memory usage
+2025-01-12 10:20:42 WARNING CPU temperature high
+2025-01-12 10:23:30 WARNING Low disk space
+2025-01-12 10:27:55 WARNING Connection pool exhausted
+2025-01-12 10:30:41 WARNING Memory usage at 85%
+2025-01-12 10:33:58 WARNING SSL certificate expires in 7 days
+
+==========================================
+End of Report
+==========================================

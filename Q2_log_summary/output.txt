@@ -1,0 +1,29 @@
+Log file as an input 
+==========================================
+Log Analysis Started
+==========================================
+Analyzing log file: sample_log.txt
+
+==========================================
+Log Summary
+==========================================
+Total number of log entries: 20
+Number of INFO messages: 8
+Number of WARNING messages: 6
+Number of ERROR messages: 6
+
+Most recent ERROR message:
+2025-01-12 10:31:27 ERROR File not found: config.xml
+
+==========================================
+Report Generation
+==========================================
+Report file generated: log_summary_2026-02-05.txt
+
+==========================================
+Log Analysis Completed Successfully
+==========================================
+The File doesnt exist case
+Error: File 'log.txt' does not exist.
+ Directory as an input 
+Error: 'testdir' is not a regular file.

@@ -1,0 +1,16 @@
+ Case 1: when the argument is a file 
+Analyzing file: text.txt
+-----------------------------------
+Number of lines: 2
+Number of words: 10
+Number of characters: 56
+   
+ Case 2: when the argument is a directory 
+Analyzing directory: testdir
+-----------------------------------
+Total number of files: 5
+Number of .txt files: 4
+  
+ Case 3: invalid input case 
+Error: Path 'Hello World' does not exist.
+Error: Path '2' does not exist.
